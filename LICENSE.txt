@@ -1,4 +1,4 @@
-I, being the author and sole copyright holder, hereby
-grant permission to use the software, its documentation,
-and everything else in this archive, as if they were in
-the public domain.
+All files in this repository are under the Creative Commons CC0 1.0 licence.
+You can find a copy of that licence here:
+
+  https://creativecommons.org/publicdomain/zero/1.0/
