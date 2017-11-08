@@ -46,11 +46,12 @@ class parser {
   }
 
   static function get_func() {
-    $args = implode(',', array_map('intval', func_get_args()));
-    $func_body = 
-      sprintf('$parser = new %s(%s); return $parser->to_bc($code);',
-	__CLASS__, $args);
-    return create_function('$code', $func_body);
+    $args = array_map('intval', func_get_args());
+    return function ($code) use ($args) {
+      $tmp = new \ReflectionClass(__CLASS__);
+      $parser = $tmp->newInstanceArgs($args);
+      return $parser->to_bc($code);
+    };
   }
 
   function to_bc($code) {
