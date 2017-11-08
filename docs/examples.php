@@ -1,5 +1,5 @@
 <?php
-require_once "cinip.php";
+require_once __DIR__ . "/../src/cinip.php";
 
 use kingfisher\cinip;
 
