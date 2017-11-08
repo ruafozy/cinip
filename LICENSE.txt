@@ -1,4 +1,5 @@
-All files in this repository are under the Creative Commons CC0 1.0 licence.
-You can find a copy of that licence here:
+All files in this repository, plus the documentation for Cinip on
+<https://kingfisher.nfshost.com>, are under the Creative Commons CC0 1.0
+licence.  You can find a copy of that licence here:
 
   https://creativecommons.org/publicdomain/zero/1.0/
