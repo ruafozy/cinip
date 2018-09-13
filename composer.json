@@ -1,0 +1,17 @@
+{
+  "name": "ruafozy/cinip",
+  "description": "Wrapper for bcmath that offers readable expressions",
+  "homepage": "https://github.com/ruafozy/cinip",
+  "license": "CC0-1.0",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "files": [
+      "src/cinip.php"
+    ]
+  },
+  "keywords": [
+    "arbitrary precision", "bc"
+  ]
+}
